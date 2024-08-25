@@ -1,0 +1,30 @@
+	Algoritmo "nome"
+
+	var
+
+	
+	pao, broa  : real 
+	valorpao, valorbroa, total, final : real
+
+
+	
+
+	inicio 
+
+		
+	escreval("Qual a quantidade de pães?") \\ 10 pães
+	leia(pao) \\ pao = 10
+	escreval("Qual a quantidade de broas?") \\ 20 broas
+	leia(broa) \\ broa = 20 
+	
+	valorpao = (pao*0.12)	
+	valorbroa = (broa*1.5)
+	
+	total = (valorpao+valorbroa)
+
+	total*0,1 = final
+ 	escreval("O valor para a poupança será de ",final,)
+
+
+
+	fim

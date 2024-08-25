@@ -1,0 +1,21 @@
+Algoritmo "exercicio12"
+
+ver
+
+	si,sa : real
+	sf : real
+
+inicio
+
+	escreval("Qual o salário inicial?")
+	leia(si)
+	sa = (si+(si*0,15))
+	sf = (si-(si*0,08)
+
+	escreval("O salário inicial foi de ",si,)
+	escreval("O salário com 15% aumento é ",sa,)
+	escreval("O salário final é de ",sf,)
+	
+
+
+fimalgoritmo

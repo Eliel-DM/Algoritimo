@@ -1,0 +1,22 @@
+Algoritmo "exercicio20"
+
+
+
+var
+	
+	blusa,novelo : real
+
+inicio
+
+	escreval("Qual a quantidade de blusas produzidas?")
+	leia(blusa) 
+	escreval("Qual a quantidade gasta de novelos ?")
+	(novelo) 
+	
+	razao = (novelo/blusa)
+	
+	escreval("A quantidade de novelos gastos por plusa é ",razao,)
+	
+
+
+fimalgoritmo

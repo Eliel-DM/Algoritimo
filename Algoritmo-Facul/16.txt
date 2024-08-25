@@ -1,0 +1,27 @@
+Algoritmo "execicio16"
+
+
+
+var
+	
+	totalsan,total : real	
+	quantqueijo,quantpresunto,quantham : real
+	
+incio
+	\\ Cade sanduíche tem 1 presunto 2 queijos e 1 hamburguer
+
+	escreval("Qual a quantidade de de sanduíches?")
+	leia(totalsan)
+
+	quantqueijo = ((50*(totalsan*2))/1000)
+	quantpresunto = ((totalsan*50)/1000)
+	quantham = ((totalsan*100)/1000) 
+	
+	escreval("A quantidade de queijo é de ",quantqueijo," Kg")
+	escreval("A quantidade de presunto é de ",quantpresunto," Kg")
+	escreval("A quantidade de carne é de ",quantham," Kg")
+	
+	
+
+
+fimalgoritmo

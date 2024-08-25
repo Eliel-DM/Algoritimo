@@ -1,0 +1,20 @@
+algoritmo "exercicio24"
+
+var
+	
+	qrl,agua,suco : real
+	
+
+inicio
+	
+	escreval("Qual a quantidade em litros de refresco desejado ?")
+	leia(qlr)
+	agua = (qlr*0,8) \\ 0,8 = 80% do valor inteiro do refresco 
+	suco = (qrl*0,2) 
+	escreval("A quantidade necessaria de água será de ",agua," litros.")
+	escreval("A quantidade necessaria de suco será de ",suco," litros.")
+
+
+
+
+fimalgoritmo

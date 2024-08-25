@@ -1,0 +1,22 @@
+Algoritmo "exercício07"
+
+var
+	
+	mes,dia : real
+	mesdia,totaldia,total : real	
+
+
+inicio 
+
+	escreval("Qual o mês desejado?")
+	leia("mes")
+	escreval("Qual o dia desejado do mes ?")
+	leia(dia)
+	mesdia =(mes*30)
+	totaldia =(mesdia+dia)
+	total=(360-totaldia)
+	escreval("O total de dias que ja se passaram foi de ",total," dias.")
+	
+	
+
+fimalgoritmo

@@ -1,0 +1,26 @@
+Algoritmo "exercício09"
+
+var
+
+	pequena,media,grande: real
+	valorp,valorm,valorg: real
+	total : real
+
+inicio
+	
+	escreval("Quantas camisetas pequenas foram vendidas?")
+	leia(pequena)
+	escreval("Quantas camisetas médias foram vendidas?")
+	leia(media)
+	escreval("Quantas camisetas pequenas foram vendidas?")
+	leia(pequena)
+
+	valorp = (pequena*10)
+	valorm = (media*12)
+	valorg = (grande*15)
+	total = (valorp+valorm+valorg)
+	
+	escreval("O valor arrecadado foi de ",total," reais." )	
+
+
+fimalgoritmo

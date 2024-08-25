@@ -1,0 +1,30 @@
+Algoritmo "exercicio18"
+
+var
+	
+	hr,hrex : real
+	hrnormais,hrextras : real
+	salario, total : real
+	
+
+inicio
+
+	escreval("Qual a quantidade de horas trabalhas normais?")
+	leia(hr)
+	hrnormais = (hr*10)
+	escreval("Qual a quantidade de horas extras trabalhadas?")
+	leia(hrex)
+
+	hrextras = (hrextras*15)
+	salario = (hrnormais+hrextras)
+	total = (salario*0,1)
+	
+
+	escreval("O valor bruto do salário será de ",salario," R$.")
+	escreval("O valor líquido do salário será de ",total," R$.")
+	
+	
+
+
+
+fimalgoritmo

@@ -1,0 +1,14 @@
+Algoritmo "semnome"
+
+var
+   cavalos,resultado :real
+inicio
+
+
+      escreval("Qual a quantidade de cavalos?")
+      leia(cavalos)
+      resultado = (cavalos*4)
+      escreval("A quantidade de ferraduras será ",resultado,)
+
+
+fimalgoritmo

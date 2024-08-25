@@ -1,0 +1,27 @@
+Algoritmo "exercicio19"
+
+
+var
+
+	quantidade : real
+	valoraliemnt,valorident : real
+	total = 
+	
+inicio
+
+	\\ de alimento são 2 de 3,50  | de identificação são 1 de 4,00
+
+	escreval("Qual quantidade de frangos")
+	leia(quantidade)
+	
+	valoraliment = (quantidade*(2*3,50))
+	valorident = (quantidade*4)
+	total = (valoraliment+valorident)
+
+	escraval("O valor necessário para marcar a granja será de ",total," R$.")
+	
+	
+
+
+
+fimalgoritmo

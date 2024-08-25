@@ -1,0 +1,18 @@
+algoritmo "exercicio29"
+
+
+var
+	
+	valora,valorn : real
+
+inicio
+
+	escreval("Qual o valor do produto?")
+	leia("valora")
+	valorn = (valora-(valora*0.1))
+	escreval("O valor antigo é ",valora,)
+	escreval("O valor novo é ",valorn,)
+
+
+
+fim algoritmo

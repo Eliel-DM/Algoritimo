@@ -1,0 +1,19 @@
+Algoritmo "exercicio05"
+
+
+var
+	xreais,valorgasolina,litros : real
+
+inicio 
+
+	escreval("Quantos reais serão adicionados no tanque?")
+	leia(xreais) \\ 10 reais
+	escreval("Perdão pelo incômodo! Mas qual o atual valor da gasolina?")
+	leia(valorgasolina) \\ 2.30 reais 
+	litros = (xreais/valorgasolina)
+	escreval("Ele conseguirá colocar",litros,"litros.")
+	
+ 		
+fimalgoritmo
+
+	

@@ -1,0 +1,36 @@
+Algoritmo "exercicio14"
+
+var
+
+	um,cinco,dez,vinte,cinq,reali : real
+	umr,cincor,dezr,vinter,cinqr : real
+	valorf : real
+	
+inicio
+
+	escreval("Qual a quantidade de moedas de 1 cents")
+	leia(um)
+	escreval("Qual a quantidade de moedas de 5 cents")
+	leia(cinco)
+	escreval("Qual a quantidade de moedas de 10 cents")
+	leia(dez)
+	escreval("Qual a quantidade de moedas de 25 cents")
+	leia(vinte)
+	escreval("Qual a quantidade de moedas de 50 cents")
+	leia(cinq)
+	escreval("Qual a quantidade de moedas de 1 real?")
+	leia(reali)
+
+	umr = (100/(um*1))
+	cincor = (100/(cinco*5))
+	dezr = (100/(dez*10))
+	vinter = (100/(vinte*20))
+	cinqr = (100/(cinq*50))
+	valorf = (reali+umr+cincor+dezr+vinter+cinqr)
+
+	escreval("O valor final arrecado foi de ",valorf," R$")
+	
+	
+	
+
+fimalgoritmo

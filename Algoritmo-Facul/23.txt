@@ -1,0 +1,20 @@
+algoritmo "exercicio23"
+
+
+var
+	
+	ladoma,ladome,total : real
+
+inicio
+
+	escreval("Qual o valor da diagonal maior?")
+	leia(ladoma)
+	escreval("Qual o valor da diagonal menor?")
+	leia(ladome)
+
+	total = ((ladoma*ladome)/2)	
+
+	escreval("A área do losangulo é de ",total,)
+
+
+fimalgoritmo

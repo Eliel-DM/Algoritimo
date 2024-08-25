@@ -1,0 +1,17 @@
+Algoritmo "exercicio01"
+
+var
+
+   altura,largura,total : real
+
+inicio
+
+      escreval("Qual a altura?")
+      leia(altura)
+      escreval("Qual a largura?")
+      leia(largura)
+      total = (largura*altura)
+      escreval("O área do terrreno é ",total," m2")
+
+
+fimalgoritmo

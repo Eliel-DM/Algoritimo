@@ -1,0 +1,27 @@
+Algoritmo
+
+var
+
+	x1,x2,y1,y2: real	
+	
+	
+incio
+
+	\\ dAB² = (xB – xA)² + (yB – yA)². Fórmula 
+
+	escreval("Qual o primeiro valor do eixo x?")
+	leia(x1)
+	escreval("Qual o segundo valor do eixo x?")
+	leia(x2)
+	escreval("Qual o primeiro valor do eixo y?")
+	leia(y1)
+	escreval("Qual o segundo valor do eixo y?")
+	leia(y2)
+	
+	total = raiz(((x1-x2)**2)+((y1-y2)**2))
+	
+	escreval("A distância entre os dois pontos será de ",total,)
+
+
+
+fimalgoritmo

@@ -1,0 +1,22 @@
+algoritmo "exercicio27"
+
+
+var
+
+	num1,num2,total : real
+
+
+inicio
+
+	escreval("Qual o valor do primeiro número?")
+	leia("num1")
+	escreval("Qual o valor do segundo número? OBS: deve ser diferente de 0")
+	leia("num2")
+
+	total=(num1/num2)
+	
+	escreval("O valor da divisão será de ",total,)
+
+
+
+fimalgoritmo

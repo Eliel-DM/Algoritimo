@@ -1,0 +1,681 @@
+Algoritmo "exercicio01"
+
+var
+
+   altura,largura,total : real
+
+inicio
+
+      escreval("Qual a altura?")
+      leia(altura)
+      escreval("Qual a largura?")
+      leia(largura)
+      total = (largura*altura)
+      escreval("O área do terrreno é ",total," m2")
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio02"
+
+var
+   cavalos,resultado :real
+inicio
+
+
+      escreval("Qual a quantidade de cavalos?")
+      leia(cavalos)
+      resultado = (cavalos*4)
+      escreval("A quantidade de ferraduras será ",resultado,)
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio03"
+
+var
+
+	
+	pao, broa  : real 
+	valorpao, valorbroa, total, final : real
+
+
+	
+
+inicio 
+
+		
+	escreval("Qual a quantidade de pães?") \\ 10 pães
+	leia(pao) \\ pao = 10
+	escreval("Qual a quantidade de broas?") \\ 20 broas
+	leia(broa) \\ broa = 20 
+	
+	valorpao = (pao*0.12)	
+	valorbroa = (broa*1.5)
+	
+	total = (valorpao+valorbroa)
+
+	total*0,1 = final
+ 	escreval("O valor para a poupança será de ",final,)
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio04"
+	
+var
+
+	idade, dia: real
+
+inicio 		
+
+	escreval("Qual seu nome ?")
+	leia(nome)
+	escreval("Quantos anos você tem ?")
+	leia(idade)
+	idade = (idade*365)
+	escreval(nome,"você já viveu", idade, "dias!")
+	
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio05"
+
+
+var
+	xreais,valorgasolina,litros : real
+
+inicio 
+
+	escreval("Quantos reais serão adicionados no tanque?")
+	leia(xreais) \\ 10 reais
+	escreval("Perdão pelo incômodo! Mas qual o atual valor da gasolina?")
+	leia(valorgasolina) \\ 2.30 reais 
+	litros = (xreais/valorgasolina)
+	escreval("Ele conseguirá colocar",litros,"litros.")
+			
+fimalgoritmo	
+------------------------------------------------------------
+Algoritmo "exercício 06"
+	
+var
+	peso, total : real
+Inicio 
+
+	escreval("Qual a quantidade registrada na balança em Kg?")
+	leia(peso)
+	total = (peso*22)
+	escreval("O valor a ser pago será de ",total," reais.")
+	
+Fimalgoritmo	
+------------------------------------------------------------
+Algoritmo "exercício07"
+
+var
+	
+	mes,dia : real
+	mesdia,totaldia,total : real	
+
+
+inicio 
+
+	escreval("Qual o mês desejado?")
+	leia("mes")
+	escreval("Qual o dia desejado do mes ?")
+	leia(dia)
+	mesdia =(mes*30)
+	totaldia =(mesdia+dia)
+	total=(360-totaldia)
+	escreval("O total de dias que ja se passaram foi de ",total," dias.")
+	
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercício08"
+
+var
+
+	n1,n2,n3,media : real
+
+inicio
+	
+	escreval("Qual a primeira nota?")
+	leia(n1)
+	escreval("Qual a segunda nota?")
+	leia(n2)
+	escreval("Qual a terceira nota?")
+	leia(n3)
+	total = ((n1+n2+n3)\3)
+	escreval("A sua média é de: ",total," pontos.")
+
+fimalgoritimo
+------------------------------------------------------------
+Algoritmo "exercício09"
+
+var
+
+	pequena,media,grande: real
+	valorp,valorm,valorg: real
+	total : real
+
+inicio
+	
+	escreval("Quantas camisetas pequenas foram vendidas?")
+	leia(pequena)
+	escreval("Quantas camisetas médias foram vendidas?")
+	leia(media)
+	escreval("Quantas camisetas pequenas foram vendidas?")
+	leia(pequena)
+	valorp = (pequena*10)
+	valorm = (media*12)
+	valorg = (grande*15)
+	total = (valorp+valorm+valorg)
+	escreval("O valor arrecadado foi de ",total," reais." )	
+
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio10"
+
+var
+
+	x1,x2,y1,y2: real	
+	
+	
+incio
+
+	\\ dAB² = (xB – xA)² + (yB – yA)². Fórmula 
+
+	escreval("Qual o primeiro valor do eixo x?")
+	leia(x1)
+	escreval("Qual o segundo valor do eixo x?")
+	leia(x2)
+	escreval("Qual o primeiro valor do eixo y?")
+	leia(y1)
+	escreval("Qual o segundo valor do eixo y?")
+	leia(y2)
+	
+	total = raiz(((x1-x2)**2)+((y1-y2)**2))
+	
+	escreval("A distância entre os dois pontos será de ",total,)
+
+
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio11"
+
+var
+
+	dias : real
+	anosresult : int
+
+inicio
+
+	escreval("Qual a quantidade de dias?")
+	leia(dias)
+	anosresult = (dias/360)
+	meses = (dias%360)
+	mesesresult = (meses/30)
+	diass = (meses%30)
+
+
+	escreval("Serão ",anosresult," anos ",mesesresult," meses e ",diass," dias sem acidentes!")
+	
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio12"
+
+ver
+
+	si,sa : real
+	sf : real
+
+inicio
+
+	escreval("Qual o salário inicial?")
+	leia(si)
+	sa = (si+(si*0,15))
+	sf = (si-(si*0,08)
+
+	escreval("O salário inicial foi de ",si,)
+	escreval("O salário com 15% aumento é ",sa,)
+	escreval("O salário final é de ",sf,)
+
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio13"
+
+var
+	trezenta,seisenta,doiss : real
+	trel,seil,doil ,valorf : real
+
+inicio
+
+	escreval("Qual a quantidade de lata de 350 ml foram vendidas?")
+	leia(trezenta)
+	escreval("Qual a quantidade de garrafa de 600 ml foram vendidas?")
+	leia(seisenta)
+	escreval("Qual a quantidade de garrafa de 2 l foram vendidas?")
+	leia(doiss)
+	trel = (1000/(trezenta*350)) \\ 1000ml = 1 l Para conversão em litros
+	seil = (1000/(seisenta*600))  
+	doil = (doiss*2)
+	valorf = (trel+seil+doil)
+	escreval("O valor de litros vendidos foi de ",valorf,)
+
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio14"
+
+var
+
+	um,cinco,dez,vinte,cinq,reali : real
+	umr,cincor,dezr,vinter,cinqr : real
+	valorf : real
+	
+inicio
+
+	escreval("Qual a quantidade de moedas de 1 cents")
+	leia(um)
+	escreval("Qual a quantidade de moedas de 5 cents")
+	leia(cinco)
+	escreval("Qual a quantidade de moedas de 10 cents")
+	leia(dez)
+	escreval("Qual a quantidade de moedas de 25 cents")
+	leia(vinte)
+	escreval("Qual a quantidade de moedas de 50 cents")
+	leia(cinq)
+	escreval("Qual a quantidade de moedas de 1 real?")
+	leia(reali)
+
+	umr = (100/(um*1))
+	cincor = (100/(cinco*5))
+	dezr = (100/(dez*10))
+	vinter = (100/(vinte*20))
+	cinqr = (100/(cinq*50))
+	valorf = (reali+umr+cincor+dezr+vinter+cinqr)
+
+	escreval("O valor final arrecado foi de ",valorf," R$")
+	
+	
+	
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio15"
+
+var
+	
+	qrl,agua,suco : real
+	
+
+inicio
+	
+	escreval("Qual a quantidade em litros de refresco desejado ?")
+	leia(qlr)
+	agua = (qlr*0,8) \\ 0,8 = 80% do valor inteiro do refresco 
+	suco = (qrl*0,2) 
+	escreval("A quantidade necessaria de água será de ",agua," litros.")
+	escreval("A quantidade necessaria de suco será de ",suco," litros.")
+
+
+
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "execicio16"
+
+
+
+var
+	
+	totalsan,total : real	
+	quantqueijo,quantpresunto,quantham : real
+	
+incio
+	\\ Cade sanduíche tem 1 presunto 2 queijos e 1 hamburguer
+
+	escreval("Qual a quantidade de de sanduíches?")
+	leia(totalsan)
+
+	quantqueijo = ((50*(totalsan*2))/1000)
+	quantpresunto = ((totalsan*50)/1000)
+	quantham = ((totalsan*100)/1000) 
+	
+	escreval("A quantidade de queijo é de ",quantqueijo," Kg")
+	escreval("A quantidade de presunto é de ",quantpresunto," Kg")
+	escreval("A quantidade de carne é de ",quantham," Kg")
+	
+	
+
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio17"
+
+
+var
+
+	celsius,fah : real
+
+
+inicio
+
+	escreval("Qual a temperatura em graus Celsius ?")
+	leia(celsius)
+	fah = ((celsius*1,8)+32)
+	escreval("O valor em Fahrenheit é de ",fah,)
+
+
+
+fimalgoritmo 
+------------------------------------------------------------
+Algoritmo "exercicio18"
+
+var
+	
+	hr,hrex : real
+	hrnormais,hrextras : real
+	salario, total : real
+	
+
+inicio
+
+	escreval("Qual a quantidade de horas trabalhas normais?")
+	leia(hr)
+	hrnormais = (hr*10)
+	escreval("Qual a quantidade de horas extras trabalhadas?")
+	leia(hrex)
+
+	hrextras = (hrextras*15)
+	salario = (hrnormais+hrextras)
+	total = (salario*0,1)
+	
+
+	escreval("O valor bruto do salário será de ",salario," R$.")
+	escreval("O valor líquido do salário será de ",total," R$.")
+	
+	
+
+
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio19"
+
+
+var
+
+	quantidade : real
+	valoraliemnt,valorident : real
+	total = 
+	
+inicio
+
+	\\ de alimento são 2 de 3,50  | de identificação são 1 de 4,00
+
+	escreval("Qual quantidade de frangos")
+	leia(quantidade)
+	
+	valoraliment = (quantidade*(2*3,50))
+	valorident = (quantidade*4)
+	total = (valoraliment+valorident)
+
+	escraval("O valor necessário para marcar a granja será de ",total," R$.")
+	
+	
+
+
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio20"
+
+
+
+var
+	
+	blusa,novelo : real
+
+inicio
+
+	escreval("Qual a quantidade de blusas produzidas?")
+	leia(blusa) 
+	escreval("Qual a quantidade gasta de novelos ?")
+	(novelo) 
+	
+	razao = (novelo/blusa)
+	
+	escreval("A quantidade de novelos gastos por plusa é ",razao,)
+	
+
+
+fimalgoritmo
+------------------------------------------------------------
+Algoritmo "exercicio21"
+
+var
+	trezenta,seisenta,doiss : real
+	trel,seil,doil ,valorf : real
+
+inicio
+
+	escreval("Qual a quantidade de lata de 350 ml foram vendidas?")
+	leia(trezenta)
+	escreval("Qual a quantidade de garrafa de 600 ml foram vendidas?")
+	leia(seisenta)
+	escreval("Qual a quantidade de garrafa de 2 l foram vendidas?")
+	leia(doiss)
+	trel = (1000/(trezenta*350)) \\ 1000ml = 1 l Para conversão em litros
+	seil = (1000/(seisenta*600))  
+	doil = (doiss*2)
+	valorf = (trel+seil+doil)
+	escreval("O valor de litros vendidos foi de ",valorf,)
+
+
+fimalgoritmo 
+------------------------------------------------------------
+Algoritmo "exercicio22"
+
+var
+
+	um,cinco,dez,vinte,cinq,reali : real
+	umr,cincor,dezr,vinter,cinqr : real
+	valorf : real
+	
+inicio
+
+	escreval("Qual a quantidade de moedas de 1 cents")
+	leia(um)
+	escreval("Qual a quantidade de moedas de 5 cents")
+	leia(cinco)
+	escreval("Qual a quantidade de moedas de 10 cents")
+	leia(dez)
+	escreval("Qual a quantidade de moedas de 25 cents")
+	leia(vinte)
+	escreval("Qual a quantidade de moedas de 50 cents")
+	leia(cinq)
+	escreval("Qual a quantidade de moedas de 1 real?")
+	leia(reali)
+
+	umr = (100/(um*1))
+	cincor = (100/(cinco*5))
+	dezr = (100/(dez*10))
+	vinter = (100/(vinte*20))
+	cinqr = (100/(cinq*50))
+	valorf = (reali+umr+cincor+dezr+vinter+cinqr)
+
+	escreval("O valor final arrecado foi de ",valorf," R$")
+	
+	
+	
+
+fimalgoritmo
+------------------------------------------------------------
+algoritmo "exercicio23"
+
+
+var
+	
+	ladoma,ladome,total : real
+
+inicio
+
+	escreval("Qual o valor da diagonal maior?")
+	leia(ladoma)
+	escreval("Qual o valor da diagonal menor?")
+	leia(ladome)
+
+	total = ((ladoma*ladome)/2)	
+
+	escreval("A área do losangulo é de ",total,)
+
+
+fimalgoritmo
+------------------------------------------------------------
+algoritmo "exercicio24"
+
+var
+	
+	qrl,agua,suco : real
+	
+
+inicio
+	
+	escreval("Qual a quantidade em litros de refresco desejado ?")
+	leia(qlr)
+	agua = (qlr*0,8) \\ 0,8 = 80% do valor inteiro do refresco 
+	suco = (qrl*0,2) 
+	escreval("A quantidade necessaria de água será de ",agua," litros.")
+	escreval("A quantidade necessaria de suco será de ",suco," litros.")
+
+
+
+
+fimalgoritmo
+------------------------------------------------------------
+algoritmo "exercicio25"
+
+
+var
+
+	peso,total : real
+
+inicio
+	
+	escreval("Qual seu peso em kilos?")
+	leia(peso)
+	total = (peso*1000)
+	escreval("O seu peso em gramas é de ",total," gramas.")
+
+
+
+
+fimalgoritmo
+------------------------------------------------------------
+algoritmo "exercicio26"
+
+
+var
+
+	num1,num2,num3,total :  real	
+
+incio
+	
+	escreval("Qual o valor do primeiro número?")
+	leia(num1)
+	escreval("Qual o valor do segundo número")
+	leia(num2)
+	escreval("Qual o valor do terceiro número")
+	leia(num3)
+
+	total= (num1*num2*num3)
+	
+	escreval("O valor da multiplicação do números é ",total,)
+
+
+
+fimalgoritmo
+------------------------------------------------------------
+algoritmo "exercicio27"
+
+
+var
+
+	num1,num2,total : real
+
+
+inicio
+
+	escreval("Qual o valor do primeiro número?")
+	leia("num1")
+	escreval("Qual o valor do segundo número? OBS: deve ser diferente de 0")
+	leia("num2")
+
+	total=(num1/num2)
+	
+	escreval("O valor da divisão será de ",total,)
+
+
+
+fimalgoritmo
+------------------------------------------------------------
+
+algoritmo  "exercicio28"
+
+var	
+	
+	pesoi,pesoq,pesov : real
+
+inicio
+
+	escreval("Qual o seu peso ?")
+	leia("pesoi")
+	pesoq = (pesoi+(pesoi*0,15))
+	pesov = (pesoi-(pesoi*0,20))
+	escreval("O peso incial é ",pesoi,)
+	escreval("O peso caso engorde 15% é ",pesoq,)
+	escreval("O peso caso emagreça 20% é ",pesov,)
+
+fimalgoritmo
+----------------------------------------------------------
+algoritmo "exercicio29"
+
+
+var
+	
+	valora,valorn : real
+
+inicio
+
+	escreval("Qual o valor do produto?")
+	leia("valora")
+	valorn = (valora-(valora*0.1))
+	escreval("O valor antigo é ",valora,)
+	escreval("O valor novo é ",valorn,)
+
+
+
+fim algoritmo
+------------------------------------------------------------
+algoritmo "exercicio30"
+	
+var	
+	sala,vend,total : real
+	fixo,comi : real
+inicio
+	
+	escreval("Qual o valor do salário fíxo ?")
+	leia(fixo)
+	escreval("Qual o valor das vendas ?")
+	leia(vend)
+
+	comi = (vend-(vend*0.96))
+	total = (comi+fixo)
+
+	escreval("O salário fixo é de ",fixo,)
+	escreval("O salário comissional é " ,comi,)
+	escreval("O salário total é ",total,)	
+
+fimalgoritmo
+------------------------------------------------------------
+

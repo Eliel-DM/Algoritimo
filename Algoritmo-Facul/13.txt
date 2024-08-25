@@ -1,0 +1,22 @@
+Algoritmo "exercicio13"
+
+var
+	trezenta,seisenta,doiss : real
+	trel,seil,doil ,valorf : real
+
+inicio
+
+	escreval("Qual a quantidade de lata de 350 ml foram vendidas?")
+	leia(trezenta)
+	escreval("Qual a quantidade de garrafa de 600 ml foram vendidas?")
+	leia(seisenta)
+	escreval("Qual a quantidade de garrafa de 2 l foram vendidas?")
+	leia(doiss)
+	trel = (1000/(trezenta*350)) \\ 1000ml = 1 l Para conversão em litros
+	seil = (1000/(seisenta*600))  
+	doil = (doiss*2)
+	valorf = (trel+seil+doil)
+	escreval("O valor de litros vendidos foi de ",valorf,)
+
+
+fimalgoritmo

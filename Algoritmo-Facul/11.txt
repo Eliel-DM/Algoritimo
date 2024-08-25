@@ -1,0 +1,23 @@
+Algoritmo "exercicio11"
+
+var
+
+	dias : real
+	anosresult : int
+
+inicio
+
+	escreval("Qual a quantidade de dias?")
+	leia(dias)
+	anosresult = (dias/360)
+	meses = (dias%360)
+	mesesresult = (meses/30)
+	diass = (meses%30)
+
+
+	escreval("Serão ",anosresult," anos ",mesesresult," meses e ",diass," dias sem acidentes!")
+	
+
+
+
+fimalgoritmo

@@ -1,0 +1,18 @@
+Algoritmo "exercicio17"
+
+
+var
+
+	celsius,fah : real
+
+
+inicio
+
+	escreval("Qual a temperatura em graus Celsius ?")
+	leia(celsius)
+	fah = ((celsius*1,8)+32)
+	escreval("O valor em Fahrenheit é de ",fah,)
+
+
+
+fimalgoritmo 

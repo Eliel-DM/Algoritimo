@@ -1,0 +1,19 @@
+	Algoritmo "nome"
+	
+	var
+
+	idade, dia: real
+
+	inicio 		
+
+	escreval("Qual seu nome ?")
+	leia(nome)
+	escreval("Quantos anos você tem ?")
+	leia(idade)
+	idade = (idade*365)
+	escreval(nome,"você já viveu", idade, "dias!")
+	
+
+	fim
+
+

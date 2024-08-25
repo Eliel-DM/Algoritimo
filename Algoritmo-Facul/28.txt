@@ -1,0 +1,17 @@
+algoritmo  "exercicio28"
+
+var	
+	
+	pesoi,pesoq,pesov : real
+
+inicio
+
+	escreval("Qual o seu peso ?")
+	leia("pesoi")
+	pesoq = (pesoi+(pesoi*0,15))
+	pesov = (pesoi-(pesoi*0,20))
+	escreval("O peso incial é ",pesoi,)
+	escreval("O peso caso engorde 15% é ",pesoq,)
+	escreval("O peso caso emagreça 20% é ",pesov,)
+
+fimalgoritmo

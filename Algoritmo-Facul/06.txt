@@ -1,0 +1,19 @@
+	Algoritmo "exercício 06"
+	
+	var
+
+	peso, total : real
+
+	Inicio 
+
+	escreval("Qual a quantidade registrada na balança em Kg?")
+	leia(peso)
+	total = (peso*22)
+	escreval("O valor a ser pago será de ",total," reais.")
+	
+
+
+
+
+	Fimalgoritmo
+	

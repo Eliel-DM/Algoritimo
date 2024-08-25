@@ -1,0 +1,20 @@
+algoritmo "exercicio30"
+	
+var	
+	sala,vend,total : real
+	fixo,comi : real
+inicio
+	
+	escreval("Qual o valor do salário fíxo ?")
+	leia(fixo)
+	escreval("Qual o valor das vendas ?")
+	leia(vend)
+
+	comi = (vend-(vend*0.96))
+	total = (comi+fixo)
+
+	escreval("O salário fixo é de ",fixo,)
+	escreval("O salário comissional é " ,comi,)
+	escreval("O salário total é ",total,)	
+
+fimalgoritmo
